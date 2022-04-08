@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тест</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+  <main class="main-container">
+    <h2 class="form-header">Задать вопрос</h2>
+    
+    <form method="post" action="https://60376bfd5435040017722533.mockapi.io/form">
+      <input class="input" required pattern="^[А-Яа-яЁё\s]+$" type="fullName" placeholder="Фамилия Имя Отчество *">
+      <input class="input" required pattern="\+\d-\d{3}-\d{3}-\d{4}" type="phone" placeholder="Телефон *">
+      <input class="input" type="email" placeholder="Email">
+      <button class="btn" type="submit">ОТПРАВИТЬ ЗАПРОС</button>
+    </form>
+  </main>
+</body>
+</html>

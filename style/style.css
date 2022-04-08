@@ -1,0 +1,47 @@
+  * {
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  
+  .main-container {
+    width: 370px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(242, 241, 246);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #888;
+  }
+  
+  .form-header {
+    font-size: 17px;
+    letter-spacing: 0.15px;
+    padding: 28px 33px 3px 33px;
+  }
+  
+  input {
+    border: 1px solid #dcdcdc;
+    margin: 0px 30px 19px;
+    padding: 11px 12px;
+    width: 310px;
+    border-radius: 5px;
+    letter-spacing: 0.07px;
+    font-size: 11.5px;
+  }
+  
+  button {
+    width: 310px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 1.5px 30px;
+    color: white;
+    background: rgb(106, 120, 240);
+    font-size: 12.5px;
+    border: none;
+  }
+  
+  input:focus {
+    outline: none !important;
+    border: 1px solid rgb(168, 128, 214);
+  }
+  
